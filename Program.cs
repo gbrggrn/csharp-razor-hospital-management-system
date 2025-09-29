@@ -1,3 +1,6 @@
+using Csharp3_A1.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Csharp3_A1
 {
     public class Program
@@ -8,6 +11,10 @@ namespace Csharp3_A1
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
