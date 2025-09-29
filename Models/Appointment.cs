@@ -2,5 +2,8 @@
 {
 	public class Appointment
 	{
+		public string DoctorName { get; set; } = string.Empty;
+		public string Issue { get; set; } = string.Empty;
+		public DateTime DateOfAppointment { get; set; }
 	}
 }
