@@ -1,0 +1,31 @@
+﻿@page
+@model Csharp3_A1.Pages.Admin.NewsManagementModel
+@{
+	ViewData["Title"] = "Manage News";
+}
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Content</th>
+			<th>Image Path</th>
+			<th>Edit/Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.NewsItems)
+		{
+			<tr>
+				<td>@item.Title</td>
+				<td>@item.Content</td>
+				<td>@item.ImagePath</td>
+				<td>
+					<a asp-page="#" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+					<a asp-asp="#" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+
+</table>
