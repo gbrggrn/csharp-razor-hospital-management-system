@@ -9,7 +9,7 @@
     @foreach (var item in Model)
     {
         <div class="card mb-2 bg-opacity-25">
-            <img src="@item.ImagePath" class="card-img-top img-fluid opacity-75" />
+            <img src="~/@item.ImagePath" class="card-img-top img-fluid opacity-75" />
             <div class="card-body">
                 <h6>@item.Title</h6>
                 <p>@item.Content</p>
