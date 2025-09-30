@@ -93,54 +93,7 @@
 
                     <!-- News -->
                     <div class="col-2">
-                        <div class="news-section p-3 bg-info bg-opacity-25 border rounded" alt="News section" aria-label="News section">
-                            <h4>News updates</h4>
-
-                            <!-- News card 1 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News card 1" aria-label="News card 1">
-                                <img src="~/images/news/news_hospital_img1.jpg" class="card-img-top img-fluid opacity-75" />
-                                <div class="card-body">
-                                    <h6>Rabies finally cured</h6>
-                                    <p>A patient has, for the first time, made a full recovery from rabies infection</p>
-                                </div>
-                            </div>
-
-                            <!-- News card 2 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News card 2" aria-label="News card 2">
-                                <img src="~/images/news/news_hospital_img2.jpg" class="card-img-top img-fluid opacity-75" />
-                                <div class="card-body">
-                                    <h6>Screen induced sadness prevalent among teachers</h6>
-                                    <p>Universities need to find more free time for teachers research finds</p>
-                                </div>
-                            </div>
-
-                            <!-- News card 3 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News card 3" aria-label="News card 3">
-                                <img src="~/images/news/news_hospital_img3.jpg" class="card-img-top img-fluid opacity-75" />
-                                <div class="card-body">
-                                    <h6>New fake it until you make it-program successful in recruiting new doctors</h6>
-                                    <p>Who needs education anyway?</p>
-                                </div>
-                            </div>
-
-                            <!-- News card 4 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News card 4" aria-label="News card 4">
-                                <img src="~/images/news/news_hospital_img4.jpg" class="card-img-top img-fluid opacity-75" />
-                                <div class="card-body">
-                                    <h6>Involountary handclapping connected to chronic fatigue</h6>
-                                    <p>Some people keep clapping their hands - and it is making them tired</p>
-                                </div>
-                            </div>
-
-                            <!-- News card 5 -->
-                            <div class="card mb-2 bg-opacity-25" alt="News card 5" aria-label="News card 5">
-                                <img src="~/images/news/news_hospital_img5.jpg" class="card-img-top img-fluid opacity-75" />
-                                <div class="card-body">
-                                    <h6>Handsome doctors found to cure patients faster</h6>
-                                    <p>Good news for patients - more handsome doctors will be selected through the fake it until you make it-program</p>
-                                </div>
-                            </div>
-                        </div>
+                        @await Component.InvokeAsync("News", new {maxItems = 5})
                     </div>
 
                 </div>

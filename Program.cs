@@ -1,12 +1,13 @@
 using Csharp3_A1.Data;
 using Csharp3_A1.Services;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace Csharp3_A1
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ namespace Csharp3_A1
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
-            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
             builder.Services.AddScoped<HospitalService>(); //Register HospitalService
             builder.Services.AddScoped<PatientService>(); //Register PatientService
@@ -23,6 +24,13 @@ namespace Csharp3_A1
             builder.Services.AddScoped<NewsService>(); //Register NewsService
 
             var app = builder.Build();
+
+            using (var scope = app.Services.CreateScope())
+            {
+                var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                context.Database.Migrate();
+                await DemoData.InitializeAsync(scope.ServiceProvider);
+            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
