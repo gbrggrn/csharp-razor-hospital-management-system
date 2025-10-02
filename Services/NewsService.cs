@@ -17,13 +17,15 @@ namespace Csharp3_A1.Services
 
 		public async Task<List<NewsItem>> GetAllAsync() => await _context.NewsItems.ToListAsync();
 
+		public async Task<NewsItem?> GetByIdAsync(int id) => await _context.NewsItems.FindAsync(id);
+		
 		public async Task AddAsync(NewsItem item)
 		{
 			_context.NewsItems.Add(item);
 			await _context.SaveChangesAsync();
 		}
 
-		public async Task UpdateSync(NewsItem item)
+		public async Task UpdateAsync(NewsItem item)
 		{
 			_context.NewsItems.Update(item);
 			await _context.SaveChangesAsync();

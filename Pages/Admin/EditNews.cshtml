@@ -1,0 +1,37 @@
+﻿@page "{id:int}"
+@model Csharp3_A1.Pages.Admin.EditNewsModel
+
+<h2>Edit News Item</h2>
+
+<form method="post">
+	<div class="form-group row mb-2">
+		<label asp-for="NewsItem.Title" class="col-2 col-form-label"></label>
+		<div class="col-10">
+			<input asp-for="NewsItem.Title" class="form-control"/>
+			<span asp-validati on-for="NewsItem.Title" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group row mb-2">
+		<label asp-for="NewsItem.Content" class="col-2 col-form-label"></label>
+		<div class="col-10">
+			<input asp-for="NewsItem.Content" class="form-control" />
+			<span asp-validati on-for="NewsItem.Content" class="text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group row mb-2">
+		<label asp-for="NewsItem.ImagePath" class="col-2 col-form-label"></label>
+		<div class="col-10">
+			<input asp-for="NewsItem.ImagePath" class="form-control" />
+			<span asp-validati on-for="NewsItem.ImagePath" class="text-danger"></span>
+		</div>
+	</div>
+
+	<input type="hidden" asp-for="NewsItem.Id" />
+
+	<button type="submit" class="btn btn-primary mb-2 mt-2">Save</button>
+	<a asp-page="/Admin/NewsManagement" class="btn btn-outline-primary">Cancel</a>
+</form>
+
+
