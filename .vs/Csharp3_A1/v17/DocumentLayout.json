@@ -149,21 +149,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EditNews.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:46:02.067Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -257,6 +244,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T10:41:16.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditNews.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:46:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "NewsService.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\NewsService.cs",
@@ -266,19 +279,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T09:01:41.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewsManagement.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml*",
-              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T10:41:16.955Z",
               "EditorCaption": ""
             },
             {
