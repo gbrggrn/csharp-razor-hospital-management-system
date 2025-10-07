@@ -1,19 +1,20 @@
-﻿@page "{id:int}"
-@model Csharp3_A1.Pages.Admin.EditNewsModel
-
-<h2>Edit News Item</h2>
+﻿@page
+@model Csharp3_A1.Pages.Admin.AddNewsModel
+@{
+}
+<h2>Add News Item</h2>
 
 <form method="post">
 	<div class="form-group row mb-2">
-		<label asp-for="NewsItem.Title" class="col-2 col-form-label"></label>
+		<label class="col-2 col-form-label">Title</label>
 		<div class="col-10">
-			<input asp-for="NewsItem.Title" class="form-control"/>
+			<input asp-for="NewsItem.Title" class="form-control" />
 			<span asp-validation-for="NewsItem.Title" class="text-danger"></span>
 		</div>
 	</div>
 
 	<div class="form-group row mb-2">
-		<label asp-for="NewsItem.Content" class="col-2 col-form-label"></label>
+		<label class="col-2 col-form-label">Content</label>
 		<div class="col-10">
 			<input asp-for="NewsItem.Content" class="form-control" />
 			<span asp-validation-for="NewsItem.Content" class="text-danger"></span>
@@ -21,17 +22,13 @@
 	</div>
 
 	<div class="form-group row mb-2">
-		<label asp-for="NewsItem.ImagePath" class="col-2 col-form-label"></label>
+		<label class="col-2 col-form-label">Image Path</label>
 		<div class="col-10">
 			<input asp-for="NewsItem.ImagePath" class="form-control" />
 			<span asp-validation-for="NewsItem.ImagePath" class="text-danger"></span>
 		</div>
 	</div>
 
-	<input type="hidden" asp-for="NewsItem.Id" />
-
-	<button type="submit" class="btn btn-primary mb-2 mt-2">Save</button>
+	<button type="submit" asp-page-handler="Add" class="btn btn-primary mb-2 mt-2">Save</button>
 	<a asp-page="/Admin/NewsManagement" class="btn btn-outline-primary">Cancel</a>
 </form>
-
-

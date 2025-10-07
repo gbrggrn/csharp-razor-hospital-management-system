@@ -29,10 +29,14 @@ namespace Csharp3_A1.Services
 			await _context.SaveChangesAsync();
 		}
 
-		public async Task DeleteAsync(NewsItem item)
+		public async Task DeleteAsync(int id)
 		{
-			_context.NewsItems.Remove(item);
-			await _context.SaveChangesAsync();
+			var item = await _context.NewsItems.FindAsync(id);
+			if (item != null)
+			{
+				_context.NewsItems.Remove(item);
+				await _context.SaveChangesAsync();
+			}
 		}
 	}
 }

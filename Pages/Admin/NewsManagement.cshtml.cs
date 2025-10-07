@@ -19,5 +19,11 @@ namespace Csharp3_A1.Pages.Admin
         {
             NewsItems = await _newsService.GetAllAsync();
         }
+
+        public async Task<IActionResult> OnPostDeleteAsync(int id)
+        {
+            await _newsService.DeleteAsync(id);
+            return RedirectToPage();
+        }
     }
 }
