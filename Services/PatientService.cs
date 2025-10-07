@@ -1,4 +1,6 @@
 ﻿using Csharp3_A1.Data;
+using Csharp3_A1.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Csharp3_A1.Services
 {
@@ -12,5 +14,27 @@ namespace Csharp3_A1.Services
 		}
 
 		//Logic
+
+		public async Task<List<Patient>> GetAllAsync() => await _context.Patients.ToListAsync();
+
+		public async Task<Patient?> GetByIdAsync(int id) => await _context.Patients.FindAsync(id);
+
+		public async Task AddAsync(Patient patient)
+		{
+			_context.Patients.Add(patient);
+			await _context.SaveChangesAsync();
+		}
+
+		public async Task UpdateAsync(Patient patient)
+		{
+			_context.Patients.Update(patient);
+			await _context.SaveChangesAsync();
+		}
+
+		public async Task DeleteAsync(Patient patient)
+		{
+			_context.Patients.Remove(patient);
+			await _context.SaveChangesAsync();
+		}
 	}
 }

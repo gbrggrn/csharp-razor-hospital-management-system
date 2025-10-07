@@ -10,7 +10,5 @@ namespace Csharp3_A1.Services
 		{
 			_context = context;
 		}
-
-		//Logic
 	}
 }

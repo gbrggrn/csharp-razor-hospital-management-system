@@ -13,8 +13,6 @@ namespace Csharp3_A1.Services
 			_context = context;
 		}
 
-		//Logic
-
 		public async Task<List<NewsItem>> GetAllAsync() => await _context.NewsItems.ToListAsync();
 
 		public async Task<NewsItem?> GetByIdAsync(int id) => await _context.NewsItems.FindAsync(id);
