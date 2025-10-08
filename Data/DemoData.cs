@@ -1,4 +1,5 @@
 ﻿using Csharp3_A1.Models;
+using Csharp3_A1.Services;
 using System.Reflection;
 
 namespace Csharp3_A1.Data
@@ -32,6 +33,53 @@ namespace Csharp3_A1.Data
 					new Patient { Name = "Olivia Bennett", DateOfBirth = new DateTime(2001, 2, 18) },
 					new Patient { Name = "Henry Foster", DateOfBirth = new DateTime(1994, 11, 2) }
 				);
+				
+				await context.SaveChangesAsync();
+
+				var patients = context.Patients.ToList();
+
+				context.MedicalHistories.AddRange(
+					new MedicalHistory
+					{
+						Patient = patients[0],
+						PatientId = patients[0].Id,
+						DateOfVisit = new DateTime(2022, 1, 22),
+						Reason = "Broken leg",
+						Notes = "Plastered"
+					},
+					new MedicalHistory 
+					{
+						Patient = patients[1],
+						PatientId = patients[1].Id,
+						DateOfVisit = new DateTime(2020, 2, 24),
+						Reason = "Common Cold",
+						Notes = "Prescribed ibuprofen"
+					},
+					new MedicalHistory
+					{
+						Patient = patients[2],
+						PatientId = patients[2].Id,
+						DateOfVisit = new DateTime(2021, 9, 14),
+						Reason = "Routine Checkup",
+						Notes = "All fine"
+					},
+					new MedicalHistory
+					{
+						Patient = patients[3],
+						PatientId= patients[3].Id,
+						DateOfVisit = new DateTime(1999, 4, 4),
+						Reason = "Depression",
+						Notes = "Pat on the back"
+					},
+					new MedicalHistory
+					{
+						Patient = patients[4],
+						PatientId = patients[4].Id,
+						DateOfVisit = new DateTime(2006, 7, 8),
+						Reason = "Sore throat",
+						Notes = "Can not speak"
+					}
+					);
 
 				await context.SaveChangesAsync();
 			}

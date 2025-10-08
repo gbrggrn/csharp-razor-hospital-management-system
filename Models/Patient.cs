@@ -7,5 +7,6 @@
 		public DateTime DateOfBirth { get; set; }
 
 		public ICollection<Appointment> Appointments { get; set; } = [];
+		public ICollection<MedicalHistory> MedicalHistory { get; set; } = [];
 	}
 }
