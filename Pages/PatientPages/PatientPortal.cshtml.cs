@@ -3,9 +3,12 @@ using Csharp3_A1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Csharp3_A1.Pages.PatientPages
 {
+    [Authorize(Roles = "Patient")]
     public class PatientPortalModel : PageModel
     {
         [BindProperty]

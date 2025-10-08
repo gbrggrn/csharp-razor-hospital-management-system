@@ -14,6 +14,14 @@ namespace Csharp3_A1
             // Add services to the container.
             builder.Services.AddRazorPages();
 
+            builder.Services.AddAuthentication("CookieAuth").AddCookie("CookieAuth", options =>
+            {
+                options.LoginPath = "/Account/Login";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+            });
+
+            builder.Services.AddAuthentication();
+
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
@@ -46,6 +54,7 @@ namespace Csharp3_A1
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.MapRazorPages();
 
