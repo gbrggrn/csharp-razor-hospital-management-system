@@ -31,6 +31,19 @@ namespace Csharp3_A1.Services
 			await _context.SaveChangesAsync();
 		}
 
+		public async Task UpdateAppointmentsAsync(int patientId, Appointment appointment)
+		{
+			var patient = await _context.Patients.FindAsync(patientId);
+
+			if (patient == null)
+			{
+				throw new Exception("Patient not found");
+			}
+
+			patient.Appointments.Add(appointment);
+			await _context.SaveChangesAsync();
+		}
+
 		public async Task DeleteAsync(Patient patient)
 		{
 			_context.Patients.Remove(patient);

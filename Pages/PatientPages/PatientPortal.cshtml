@@ -18,10 +18,10 @@
 		<!-- Sidebar menu -->
 		<div class="col-md-4">
 			<div class="d-flex flex-column gap-2 p-2 bg-info bg-opacity-50 rounded news-section">
-				<a href="/Patient/PatientPortal?section=Profile" class="btn btn-primary bg-black bg-opacity-50">Profile</a> <!-- If navigation successful: section = "Profile" -->
-				<a href="/Patient/PatientPortal?section=Appointments" class="btn btn-primary bg-black bg-opacity-50">Appointments</a>
-				<a href="/Patient/PatientPortal?section=Medical Records" class="btn btn-primary bg-black bg-opacity-50">Medical Records</a>
-				<a href="/Patient/PatientPortal?section=Prescriptions" class="btn btn-primary bg-black bg-opacity-50">Prescriptions</a>
+				<a href="/PatientPages/PatientPortal?section=Profile" class="btn btn-primary bg-black bg-opacity-50">Profile</a> <!-- If navigation successful: section = "Profile" -->
+				<a href="/PatientPages/PatientPortal?section=Appointments" class="btn btn-primary bg-black bg-opacity-50">Appointments</a>
+				<a href="/PatientPages/PatientPortal?section=Medical Records" class="btn btn-primary bg-black bg-opacity-50">Medical Records</a>
+				<a href="/PatientPages/PatientPortal?section=Prescriptions" class="btn btn-primary bg-black bg-opacity-50">Prescriptions</a>
 			</div>
 		</div>
 
@@ -50,16 +50,34 @@
 				</table>
 
 				<!-- Schedule Appointment button -->
-				<a href="/Patient/PatientPortal?section=ScheduleAppointment" class="btn btn-outline-primary">Schedule appointment</a>
+				<a href="/PatientPages/PatientPortal?section=ScheduleAppointment" class="btn btn-outline-primary">Schedule appointment</a>
 			}
 			else if (section == "ScheduleAppointment")
 			{
-				<form>
+				<form method="post" asp-page-handler="Book">
 					<h2>Schedule appointment</h2>
-					<input class="form-control mb-2" type="text" placeholder="Patient name" />
-					<input class="form-control mb-2" type="text" placeholder="Issue" />
-					<input class="form-control mb-2" type="datetime-local" />
-					<button class="btn btn-outline-primary mb-2" type="submit">Request appointment</button>
+
+					<div class="mb-3 mt-2">
+						<label asp-for="Appointment.PatientId" class="form-label">Select Patient</label>
+						<select asp-for="Appointment.PatientId" class="form-select" asp-items="Model.SelectPatientList"></select>
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Appointment.DateOfAppointment" class="form-label"></label>
+						<input asp-for="Appointment.DateOfAppointment" type="datetime-local" class="form-control" />
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Appointment.Issue" class="form-label"></label>
+						<input asp-for="Appointment.Issue" class="form-control" />
+					</div>
+
+					<div class="mb-3">
+						<label asp-for="Appointment.DoctorName" class="form-label"></label>
+						<input asp-for="Appointment.DoctorName" class="form-control" />
+					</div>
+
+					<button type="submit" class="btn btn-primary">Book Appointment</button>
 				</form>
 			}
 			else if (section == "Medical Records")

@@ -22,6 +22,19 @@ namespace Csharp3_A1.Data
 				
 				await context.SaveChangesAsync();
 			}
+
+			if (!context.Patients.Any())
+			{
+				context.Patients.AddRange(
+					new Patient { Name = "James Harrison", DateOfBirth = new DateTime(1950, 5, 10) },
+					new Patient { Name = "Emily Carter", DateOfBirth = new DateTime(1991, 10, 15) },
+					new Patient { Name = "William Brooks", DateOfBirth = new DateTime(1975, 8, 22) },
+					new Patient { Name = "Olivia Bennett", DateOfBirth = new DateTime(2001, 2, 18) },
+					new Patient { Name = "Henry Foster", DateOfBirth = new DateTime(1994, 11, 2) }
+				);
+
+				await context.SaveChangesAsync();
+			}
 		}
 	}
 }
