@@ -14,7 +14,7 @@ namespace Csharp3_A1.Services
 			_context = context;
 		}
 
-		public async Task<User?> AuthAsync(string username, string password)
+		public async Task<User?> AuthenticateAsync(string username, string password)
 		{
 			var user = await _context.Users.FindAsync(username);
 
