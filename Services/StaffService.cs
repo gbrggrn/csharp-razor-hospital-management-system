@@ -1,4 +1,6 @@
 ﻿using Csharp3_A1.Data;
+using Csharp3_A1.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Csharp3_A1.Services
 {
@@ -11,6 +13,6 @@ namespace Csharp3_A1.Services
 			_context = context;
 		}
 
-		//Logic
+		public async Task<List<Staff>> GetAllAsync() => await _context.Staff.ToListAsync();
 	}
 }

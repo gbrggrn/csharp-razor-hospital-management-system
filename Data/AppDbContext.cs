@@ -9,10 +9,11 @@ namespace Csharp3_A1.Data
 		{
 		}
 
-		public DbSet<Appointment> Appointment { get; set; }
+		public DbSet<Appointment> Appointments { get; set; }
 		public DbSet<NewsItem> NewsItems { get; set; }
 		public DbSet<Patient> Patients { get; set; }
 		public DbSet<MedicalHistory> MedicalHistories { get; set; }
 		public DbSet<User> Users { get; set; }
+		public DbSet<Staff> Staff {  get; set; }
 	}
 }

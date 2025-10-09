@@ -68,13 +68,13 @@
 					</div>
 
 					<div class="mb-3">
-						<label asp-for="Appointment.Issue" class="form-label"></label>
-						<input asp-for="Appointment.Issue" class="form-control" />
+						<label asp-for="Appointment.Reason" class="form-label"></label>
+						<input asp-for="Appointment.Reason" class="form-control" />
 					</div>
 
 					<div class="mb-3">
-						<label asp-for="Appointment.DoctorName" class="form-label"></label>
-						<input asp-for="Appointment.DoctorName" class="form-control" />
+						<label asp-for="Appointment.StaffId" class="form-label">Select Doctor</label>
+						<select asp-for="Appointment.StaffId" class="form-select" asp-items="Model.SelectStaffList" />
 					</div>
 
 					<button type="submit" class="btn btn-primary">Book Appointment</button>

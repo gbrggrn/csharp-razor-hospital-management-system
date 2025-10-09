@@ -1,5 +1,6 @@
 ﻿using Csharp3_A1.Models;
 using Csharp3_A1.Services;
+using SQLitePCL;
 using System.Reflection;
 
 namespace Csharp3_A1.Data
@@ -11,6 +12,7 @@ namespace Csharp3_A1.Data
 			using var scope = services.CreateScope();
 			var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
+			//Seed news items
 			if (!context.NewsItems.Any())
 			{
 				context.NewsItems.AddRange(
@@ -24,6 +26,21 @@ namespace Csharp3_A1.Data
 				await context.SaveChangesAsync();
 			}
 
+			//Seed staff
+			if (!context.Staff.Any())
+			{
+				context.Staff.AddRange(
+					new Staff { Name = "Doctor Scott" },
+					new Staff { Name = "Doctor Smith" },
+					new Staff { Name = "Doctor French" },
+					new Staff { Name = "Doctor Breakfast" },
+					new Staff { Name = "Doctor Brown" }
+					);
+
+				await context.SaveChangesAsync();
+			}
+
+			//Seed patients
 			if (!context.Patients.Any())
 			{
 				context.Patients.AddRange(
@@ -33,9 +50,13 @@ namespace Csharp3_A1.Data
 					new Patient { Name = "Olivia Bennett", DateOfBirth = new DateTime(2001, 2, 18) },
 					new Patient { Name = "Henry Foster", DateOfBirth = new DateTime(1994, 11, 2) }
 				);
-				
-				await context.SaveChangesAsync();
 
+				await context.SaveChangesAsync();
+			}
+
+			//Seed medical histories
+			if (!context.MedicalHistories.Any())
+			{
 				var patients = context.Patients.ToList();
 
 				context.MedicalHistories.AddRange(
@@ -47,7 +68,7 @@ namespace Csharp3_A1.Data
 						Reason = "Broken leg",
 						Notes = "Plastered"
 					},
-					new MedicalHistory 
+					new MedicalHistory
 					{
 						Patient = patients[1],
 						PatientId = patients[1].Id,
@@ -66,7 +87,7 @@ namespace Csharp3_A1.Data
 					new MedicalHistory
 					{
 						Patient = patients[3],
-						PatientId= patients[3].Id,
+						PatientId = patients[3].Id,
 						DateOfVisit = new DateTime(1999, 4, 4),
 						Reason = "Depression",
 						Notes = "Pat on the back"
@@ -78,6 +99,76 @@ namespace Csharp3_A1.Data
 						DateOfVisit = new DateTime(2006, 7, 8),
 						Reason = "Sore throat",
 						Notes = "Can not speak"
+					}
+					);
+
+				await context.SaveChangesAsync();
+			}
+			
+			//Seed users - patients & doctors
+			if (!context.Users.Any())
+			{
+				var patients = context.Patients.ToList();
+				var doctors = context.Staff.ToList();
+
+				context.Users.AddRange(
+					//Patients
+					new User { Username = "james", Password = "123", Role = "Patient", PatientId = patients[0].Id },
+					new User { Username = "emily", Password = "123", Role = "Patient", PatientId = patients[1].Id },
+					new User { Username = "william", Password = "123", Role = "Patient", PatientId = patients[2].Id },
+					new User { Username = "olivia", Password = "123", Role = "Patient", PatientId = patients[3].Id },
+					new User { Username = "henry", Password = "123", Role = "Patient", PatientId = patients[4].Id },
+					
+					//Doctors
+					new User { Username = "drscott", Password = "123", Role = "Staff", StaffId = doctors[0].Id },
+					new User { Username = "drsmith", Password = "123", Role = "Staff", StaffId = doctors[1].Id },
+					new User { Username = "drfrench", Password = "123", Role = "Staff", StaffId = doctors[2].Id },
+					new User { Username = "drbreakfast", Password = "123", Role = "Staff", StaffId = doctors[3].Id },
+					new User { Username = "drbrown", Password = "123", Role = "Staff", StaffId = doctors[4].Id }
+					);
+			}
+
+			//Seed appointments
+			if (!context.Appointments.Any())
+			{
+				var patients = context.Patients.ToList();
+				var doctors = context.Staff.ToList();
+
+				context.Appointments.AddRange(
+					new Appointment
+					{
+						DateOfAppointment = DateTime.Now.AddDays(2),
+						PatientId = patients[0].Id,
+						StaffId = doctors[0].Id,
+						Reason = "Routine checkup"
+					},
+					new Appointment
+					{
+						DateOfAppointment = DateTime.Now.AddDays(12),
+						PatientId = patients[1].Id,
+						StaffId = doctors[1].Id,
+						Reason = "Broken leg"
+					},
+					new Appointment
+					{
+						DateOfAppointment = DateTime.Now.AddDays(4),
+						PatientId = patients[2].Id,
+						StaffId = doctors[2].Id,
+						Reason = "Sadness"
+					},
+					new Appointment
+					{
+						DateOfAppointment = DateTime.Now.AddDays(6),
+						PatientId = patients[3].Id,
+						StaffId = doctors[3].Id,
+						Reason = "Funny bones"
+					},
+					new Appointment
+					{
+						DateOfAppointment = DateTime.Now.AddDays(5),
+						PatientId = patients[4].Id,
+						StaffId = doctors[4].Id,
+						Reason = "Common cold"
 					}
 					);
 

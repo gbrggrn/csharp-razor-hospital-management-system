@@ -3,11 +3,13 @@
 	public class Appointment
 	{
 		public int Id { get; set; }
-		public string DoctorName { get; set; } = string.Empty;
-		public string Issue { get; set; } = string.Empty;
+		public string Reason { get; set; } = string.Empty;
 		public DateTime DateOfAppointment { get; set; }
 
 		public int PatientId { get; set; }
 		public Patient Patient { get; set; }
+
+		public int StaffId { get; set; }
+		public Staff Staff { get; set; }
 	}
 }
