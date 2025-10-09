@@ -24,8 +24,17 @@
                 <option selected aria-label="English">English</option>
                 <option value="1" aria-label="Swedish">Swedish</option>
             </select>
-            <!-- Login -->
-            <a asp-page="/Account/Login" class="btn btn-outline-secondary me-2" aria-label="Login button">Login</a>
+            <!-- Login/Logout -->
+            @if (User.Identity?.IsAuthenticated ?? false)
+            {
+                <form method="post" asp-page="/Account/Logout" class="me-2">
+                    <button type="submit" class="btn btn-outline-danger" aria-label="Logout button">Logout</button>
+                </form>
+            }
+            else
+            {
+                <a asp-page="/Account/Login" class="btn btn-outline-secondary me-2" aria-label="Login button">Login</a>
+            }
         </div>
     </div>
 </nav>
