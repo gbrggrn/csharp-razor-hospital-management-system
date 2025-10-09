@@ -7,9 +7,9 @@
 		public DateTime DateOfAppointment { get; set; }
 
 		public int PatientId { get; set; }
-		public Patient Patient { get; set; }
+		public Patient? Patient { get; set; }
 
 		public int StaffId { get; set; }
-		public Staff Staff { get; set; }
+		public Staff? Staff { get; set; }
 	}
 }

@@ -44,10 +44,20 @@ namespace Csharp3_A1.Services
 			await _context.SaveChangesAsync();
 		}
 
+		public async Task<List<Appointment>> GetAppointmentsByPatientIdAsync(int patientId)
+		{
+			return await _context.Appointments.Where(a => a.PatientId == patientId).Include(a => a.Staff).ToListAsync();
+		}
+
 		public async Task DeleteAsync(Patient patient)
 		{
 			_context.Patients.Remove(patient);
 			await _context.SaveChangesAsync();
+		}
+
+		public async Task<List<MedicalHistory>> GetMedicalHistoryByPatientIdAsync(int patientId)
+		{
+			return await _context.MedicalHistories.Where(m => m.PatientId == patientId).ToListAsync();
 		}
 	}
 }

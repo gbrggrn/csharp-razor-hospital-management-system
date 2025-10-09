@@ -15,24 +15,38 @@ namespace Csharp3_A1.Pages.PatientPages
         [BindProperty]
         public Appointment Appointment { get; set; } = new();
 
+        //Services
         private readonly PatientService _patientService;
         private readonly StaffService _staffService;
-        public List<Patient> Patients { get; set; } = new List<Patient>();
-        public SelectList SelectPatientList { get; set; }
+        private readonly AccountService _accountService;
+
+        //Patient properties
+        public Patient CurrentPatient { get; set; } = new();
+        public List<MedicalHistory> MedicalHistory { get; set; } = new();
+        public List<Appointment> Appointments { get; set; } = new();
+
+        //Staff list property
         public SelectList SelectStaffList { get; set; }
 
 
-        public PatientPortalModel(PatientService patientService, StaffService staffService)
+        public PatientPortalModel(PatientService patientService, StaffService staffService, AccountService accountService)
         {
             _patientService = patientService;
             _staffService = staffService;
+            _accountService = accountService;
         }
 
         public async Task OnGetAsync()
         {
-            var patientsRetrieved = await _patientService.GetAllAsync();
-            SelectPatientList = new SelectList(patientsRetrieved, "Id", "Name");
-            Patients = patientsRetrieved.ToList();
+            var username = User.Identity?.Name;
+            var user = await _accountService.GetByUserNameAsync(username);
+
+            if (user?.PatientId != null)
+            {
+                CurrentPatient = await _patientService.GetByIdAsync(user.PatientId.Value);
+                MedicalHistory = await _patientService.GetMedicalHistoryByPatientIdAsync(user.PatientId.Value);
+                Appointments = await _patientService.GetAppointmentsByPatientIdAsync(user.PatientId.Value);
+            }
 
             var staffRetrieved = await _staffService.GetAllAsync();
             SelectStaffList = new SelectList(staffRetrieved, "Id", "Name");

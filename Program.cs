@@ -30,6 +30,7 @@ namespace Csharp3_A1
             builder.Services.AddScoped<PatientService>(); //Register PatientService
             builder.Services.AddScoped<StaffService>(); //Register StaffService
             builder.Services.AddScoped<NewsService>(); //Register NewsService
+            builder.Services.AddScoped<AccountService>(); //Register AccountService
 
             var app = builder.Build();
 
@@ -53,8 +54,8 @@ namespace Csharp3_A1
 
             app.UseRouting();
 
-            app.UseAuthorization();
-            app.UseAuthentication();
+			app.UseAuthentication();
+			app.UseAuthorization();
 
             app.MapRazorPages();
 

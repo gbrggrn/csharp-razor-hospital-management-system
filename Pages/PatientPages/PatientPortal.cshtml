@@ -31,10 +31,17 @@
 			{
 				<h2>Profile</h2>
 				<table class="table">
-					<thead><tr><th>Reason</th><th>Prescription</th><th>Date of visits</th></tr></thead>
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Date of Birth</th>
+						</tr>
+					</thead>
 					<tbody>
-						<tr><td>Broken leg</td><td>Cast+ibuprofen</td><td>2025-09-11</td></tr>
-						<tr><td>Sadness</td><td>Happiness</td><td>2025-06-22</td></tr>
+						<tr>
+							<td>@Model.CurrentPatient.Name</td>
+							<td>@Model.CurrentPatient.DateOfBirth</td>
+						</tr>
 					</tbody>
 				</table>
 			}
@@ -42,10 +49,20 @@
 			{
 				<h2>Appointments</h2>
 				<table class="table">
-					<thead><tr><th>Date</th><th>Doctor</th><th>Status</th></tr></thead>
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Doctor</th>
+						</tr>
+					</thead>
 					<tbody>
-						<tr><td>2025-07-20</td><td>Dr. Smith</td><td>Confirmed</td></tr>
-						<tr><td>2025-08-15</td><td>Dr. Lee</td><td>Pending</td></tr>
+						@foreach (var appointment in Model.Appointments)
+						{
+							<tr>
+								<td>@appointment.DateOfAppointment</td>
+								<td>@appointment.Staff.Name</td>
+							</tr>
+						}
 					</tbody>
 				</table>
 
@@ -56,12 +73,7 @@
 			{
 				<form method="post" asp-page-handler="Book">
 					<h2>Schedule appointment</h2>
-
-					<div class="mb-3 mt-2">
-						<label asp-for="Appointment.PatientId" class="form-label">Select Patient</label>
-						<select asp-for="Appointment.PatientId" class="form-select" asp-items="Model.SelectPatientList"></select>
-					</div>
-
+					<p class="mt-2 mb-2"></p>
 					<div class="mb-3">
 						<label asp-for="Appointment.DateOfAppointment" class="form-label"></label>
 						<input asp-for="Appointment.DateOfAppointment" type="datetime-local" class="form-control" />
@@ -84,25 +96,50 @@
 			{
 				<h2>Medical Records</h2>
 				<table class="table">
-					<thead><tr><th>Reason</th><th></th><th>Date of visit</th></tr></thead>
+					<thead>
+						<tr>
+							<th>Date of visit</th>
+							<th>Reason</th>
+							<th>Notes</th>
+							<th>Prescriptions</th>
+						</tr>
+					</thead>
 					<tbody>
-						<tr><td>Broken leg</td><td>2025-09-11</td></tr>
-						<tr><td>Sadness</td><td>2025-06-22</td></tr>
+						@foreach (var history in Model.MedicalHistory)
+						{
+							<tr>
+								<td>@history.DateOfVisit</td>
+								<td>@history.Reason</td>
+								<td>@history.Notes</td>
+								<td>@history.Prescriptions</td>
+							</tr>
+						}
 					</tbody>
 				</table>
 			}
 			else if (section == "Prescriptions")
 			{
-				<h2>Profile</h2>
+				<h2>Prescriptions</h2>
 				<table class="table">
-					<thead><tr><th>Prescription</th><th>Amount</th></tr></thead>
+					<thead>
+						<tr>
+							<th>Date of visit</th>
+							<th>Reason</th>
+							<th>Prescriptions</th>
+						</tr>
+					</thead>
 					<tbody>
-						<tr><td>Morphine</td><td>150mg * 200tb</td></tr>
-						<tr><td>Ibuprofen</td><td>400mg * 150tb</td></tr>
+						@foreach (var history in Model.MedicalHistory)
+						{
+							<tr>
+								<td>@history.DateOfVisit</td>
+								<td>@history.Reason</td>
+								<td>@history.Prescriptions</td>
+							</tr>
+						}
 					</tbody>
 				</table>
 			}
-
 		</div>
 	</div>
 </div>
