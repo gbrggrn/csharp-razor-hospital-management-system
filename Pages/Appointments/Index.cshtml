@@ -1,0 +1,43 @@
+﻿@page
+@model Csharp3_A1.Pages.Appointments.IndexModel
+@{
+}
+<h2>Manage Appointments</h2>
+<a asp-page="/Appointments/AddAppointment" class="btn btn-primary mt-2 mb-2">Add appointment</a>
+
+<table class="table align-middle">
+	<thead>
+		<tr>
+			<th>Patient</th>
+			<th>Staff/Doctor</th>
+			<th>Reason</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var appointment in Model.Appointments)
+		{
+			<tr>
+				<td>@appointment.Patient.Name</td>
+				<td>@appointment.Staff.Name</td>
+				<td>@appointment.Reason</td>
+				<td>@appointment.DateOfAppointment.ToShortDateString()</td>
+				<td class="text-end">
+					<a asp-page="/Appointments/EditAppointment" asp-route-id="@appointment.Id" class="btn btn-outline-primary me-2">Edit</a>
+					<form method="post" asp-page-handler="Delete" asp-route-id="@appointment.Id" class="d-inline">
+						<button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Are you sure you want to delete this appointment?');">Delete</button>
+					</form>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+@if (Model.Patient == null)
+{
+	<a href="/StaffPages/StaffDashboard" class="btn btn-outline-primary mt-2">Cancel</a>
+}
+@if (Model.Staff == null)
+{
+	<a href="/PatientPages/PatientPortal" class="btn btn-outline-primary mt-2">Cancel</a>
+}

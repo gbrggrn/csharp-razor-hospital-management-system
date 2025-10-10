@@ -1,6 +1,4 @@
-﻿using Csharp3_A1.Pages.Staff;
-
-namespace Csharp3_A1.Models
+﻿namespace Csharp3_A1.Models
 {
 	public class User
 	{

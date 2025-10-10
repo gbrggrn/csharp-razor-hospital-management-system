@@ -3,6 +3,130 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\addappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\addappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\addappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\addappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staffpages\\staffdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staffpages\\staffdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\editappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\editappointment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\editappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\editappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\patientpages\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\patientpages\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251010124329_AppointmentUserServiceMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251010124329_AppointmentUserServiceMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\newsmanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\newsmanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\patientpages\\patientportal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\patientpages\\patientportal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\editnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\editnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\addnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\addnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\addnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\addnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\newsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\newsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\data\\demodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:data\\demodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\viewcomponents\\newsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:viewcomponents\\newsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\views\\shared\\components\\news\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:views\\shared\\components\\news\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,14 +139,6 @@
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\data\\demodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:data\\demodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,40 +147,8 @@
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009105509_StaffPatientHistoryMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251009105509_StaffPatientHistoryMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\patientpages\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\patientpages\\patientportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\patientpages\\patientportal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\patientpages\\patientportal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,18 +159,6 @@
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\hospitalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -95,56 +167,16 @@
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\editnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\logininput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\editnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\editnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staffpages\\staffdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staffpages\\staffdashboard.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\newsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\newsmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\addnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\addnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\models\\newsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:models\\newsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\addnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\addnews.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\admin\\newsmanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\admin\\newsmanagement.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\views\\shared\\components\\news\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:views\\shared\\components\\news\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\menu\\accidentsinjuries\\accidents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\viewcomponents\\newsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:viewcomponents\\newsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gusta\\AppData\\Local\\Temp\\.vsdbgsrc\\68f9529e581549581caa044d83863b5b97e11c1ca4fa152905f0a6d8874010c4\\Pages_Shared__Layout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -216,6 +248,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\migrations\\20251008102038_newidsforappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:migrations\\20251008102038_newidsforappointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\migrations\\20251009135502_foreignkeymedicalhistorymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:migrations\\20251009135502_foreignkeymedicalhistorymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\migrations\\20251009105509_staffpatienthistorymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:migrations\\20251009105509_staffpatienthistorymigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -225,206 +265,310 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml.cs*",
-              "RelativeToolTip": "Pages\\Account\\Logout.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T11:21:13.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml*",
-              "RelativeToolTip": "Pages\\Account\\Logout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Appointments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T11:21:00.045Z",
+              "WhenOpened": "2025-10-09T14:49:44.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "EditAppointment.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "RelativeToolTip": "Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:15:28.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AccountService.cs",
-              "RelativeToolTip": "Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:30:41.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HospitalService.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\HospitalService.cs",
-              "RelativeDocumentMoniker": "Services\\HospitalService.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\HospitalService.cs",
-              "RelativeToolTip": "Services\\HospitalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:05:53.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NewsService.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\NewsService.cs",
-              "RelativeDocumentMoniker": "Services\\NewsService.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\NewsService.cs",
-              "RelativeToolTip": "Services\\NewsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T09:01:41.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Patient.cs",
-              "RelativeToolTip": "Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T08:13:15.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T17:36:26.732Z",
+              "WhenOpened": "2025-10-10T09:37:58.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T17:31:13.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:45:40.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-02T13:19:48.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Header.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Header.cshtml*",
-              "RelativeToolTip": "Pages\\Shared\\_Header.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:32:08.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "Services\\PatientService.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\PatientService.cs",
-              "RelativeToolTip": "Services\\PatientService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA4wDEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T07:06:03.056Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DemoData.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\DemoData.cs",
-              "RelativeDocumentMoniker": "Data\\DemoData.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\DemoData.cs",
-              "RelativeToolTip": "Data\\DemoData.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAgwK4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T11:12:56.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "StaffService.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\StaffService.cs",
               "RelativeDocumentMoniker": "Services\\StaffService.cs",
               "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\StaffService.cs",
               "RelativeToolTip": "Services\\StaffService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T07:06:12.6Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "Services\\PatientService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\PatientService.cs",
+              "RelativeToolTip": "Services\\PatientService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:06:03.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\Index.cshtml.cs*",
+              "RelativeToolTip": "Pages\\Appointments\\Index.cshtml.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:08:19.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientPortal.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\PatientPages\\PatientPortal.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml.cs",
+              "RelativeToolTip": "Pages\\PatientPages\\PatientPortal.cshtml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T11:11:49.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAppointment.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\AddAppointment.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\AddAppointment.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\AddAppointment.cshtml.cs",
+              "RelativeToolTip": "Pages\\Appointments\\AddAppointment.cshtml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwEEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T10:24:01.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T19:07:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\AddAppointment.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\AddAppointment.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\AddAppointment.cshtml",
+              "RelativeToolTip": "Pages\\Appointments\\AddAppointment.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T14:50:26.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffDashboard.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\StaffPages\\StaffDashboard.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml.cs",
+              "RelativeToolTip": "Pages\\StaffPages\\StaffDashboard.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:21:38.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\StaffPages\\StaffDashboard.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
+              "RelativeToolTip": "Pages\\StaffPages\\StaffDashboard.cshtml",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAAwBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T09:46:53.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewsManagement.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:45:30.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientPortal.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml",
+              "RelativeDocumentMoniker": "Pages\\PatientPages\\PatientPortal.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml",
+              "RelativeToolTip": "Pages\\PatientPages\\PatientPortal.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T09:46:32.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditAppointment.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\EditAppointment.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml",
+              "RelativeToolTip": "Pages\\Appointments\\EditAppointment.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T14:50:00.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddNews.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\AddNews.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\AddNews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T13:00:03.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditNews.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:46:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20251010124329_AppointmentUserServiceMigration.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251010124329_AppointmentUserServiceMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251010124329_AppointmentUserServiceMigration.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251010124329_AppointmentUserServiceMigration.cs",
+              "RelativeToolTip": "Migrations\\20251010124329_AppointmentUserServiceMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T12:43:29.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddNews.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Admin\\AddNews.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml.cs",
+              "RelativeToolTip": "Pages\\Admin\\AddNews.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:05:13.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T17:36:26.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T11:35:14.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:30:41.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:15:28.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditNews.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T14:45:51.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Appointment.cs",
               "RelativeDocumentMoniker": "Models\\Appointment.cs",
@@ -437,59 +581,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PatientPortal.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml",
-              "RelativeDocumentMoniker": "Pages\\PatientPages\\PatientPortal.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml",
-              "RelativeToolTip": "Pages\\PatientPages\\PatientPortal.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "NewsManagement.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T09:46:32.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T10:41:16.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20251009105509_StaffPatientHistoryMigration.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
-              "RelativeToolTip": "Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T10:55:09.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PatientPortal.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\PatientPages\\PatientPortal.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\PatientPages\\PatientPortal.cshtml.cs",
-              "RelativeToolTip": "Pages\\PatientPages\\PatientPortal.cshtml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T11:11:49.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MedicalHistory.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\MedicalHistory.cs",
-              "RelativeDocumentMoniker": "Models\\MedicalHistory.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\MedicalHistory.cs",
-              "RelativeToolTip": "Models\\MedicalHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T11:39:36.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Staff.cs",
               "RelativeDocumentMoniker": "Models\\Staff.cs",
@@ -497,12 +601,191 @@
               "RelativeToolTip": "Models\\Staff.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:17:17.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T18:17:17.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
+              "Title": "DemoData.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\DemoData.cs",
+              "RelativeDocumentMoniker": "Data\\DemoData.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\DemoData.cs",
+              "RelativeToolTip": "Data\\DemoData.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwGEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:12:56.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T17:31:13.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewsViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\ViewComponents\\NewsViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\NewsViewComponent.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\ViewComponents\\NewsViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\NewsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T10:35:44.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MedicalHistory.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\MedicalHistory.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalHistory.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\MedicalHistory.cs",
+              "RelativeToolTip": "Models\\MedicalHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:39:36.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Views\\Shared\\Components\\News\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\News\\Default.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Views\\Shared\\Components\\News\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\News\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T10:34:43.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20251009135502_ForeignKeyMedicalHistoryMigration.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009135502_ForeignKeyMedicalHistoryMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251009135502_ForeignKeyMedicalHistoryMigration.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009135502_ForeignKeyMedicalHistoryMigration.cs",
+              "RelativeToolTip": "Migrations\\20251009135502_ForeignKeyMedicalHistoryMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:55:03.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T13:32:08.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-02T13:19:48.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T18:45:40.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T08:13:15.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "Services\\NewsService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\NewsService.cs",
+              "RelativeToolTip": "Services\\NewsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T09:01:41.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "HospitalService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\HospitalService.cs",
+              "RelativeDocumentMoniker": "Services\\HospitalService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\HospitalService.cs",
+              "RelativeToolTip": "Services\\HospitalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T07:05:53.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-09T11:21:00.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T11:21:13.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20251009105509_StaffPatientHistoryMigration.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
+              "RelativeToolTip": "Migrations\\20251009105509_StaffPatientHistoryMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T10:55:09.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "Pages\\Account\\AccessDenied.cshtml",
@@ -510,12 +793,11 @@
               "RelativeToolTip": "Pages\\Account\\AccessDenied.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T18:29:56.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T18:29:56.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Pages\\Account\\Login.cshtml",
@@ -523,37 +805,11 @@
               "RelativeToolTip": "Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-08T18:29:37.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-08T18:29:37.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "EditNews.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T14:45:51.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StaffDashboard.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\StaffPages\\StaffDashboard.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml.cs",
-              "RelativeToolTip": "Pages\\StaffPages\\StaffDashboard.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T18:21:38.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "LoginInput.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\LoginInput.cs",
               "RelativeDocumentMoniker": "Models\\LoginInput.cs",
@@ -565,31 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "EditNews.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\EditNews.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\EditNews.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\EditNews.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:46:02.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "StaffDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
-              "RelativeDocumentMoniker": "Pages\\StaffPages\\StaffDashboard.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
-              "RelativeToolTip": "Pages\\StaffPages\\StaffDashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-05T09:46:53.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "20251008120509_MedicalHistoriesMigration.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251008120509_MedicalHistoriesMigration.cs",
               "RelativeDocumentMoniker": "Migrations\\20251008120509_MedicalHistoriesMigration.cs",
@@ -601,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "NewsItem.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Models\\NewsItem.cs",
               "RelativeDocumentMoniker": "Models\\NewsItem.cs",
@@ -613,31 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AddNews.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\AddNews.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\AddNews.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T13:00:03.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "NewsManagement.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml",
-              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T10:41:16.955Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 61,
               "Title": "20251008102038_NewIdsForAppointments.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251008102038_NewIdsForAppointments.cs",
               "RelativeDocumentMoniker": "Migrations\\20251008102038_NewIdsForAppointments.cs",
@@ -649,43 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Views\\Shared\\Components\\News\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\News\\Default.cshtml",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Views\\Shared\\Components\\News\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\News\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T10:34:43.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AddNews.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\AddNews.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\AddNews.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\AddNews.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:05:13.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "NewsManagement.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Admin\\NewsManagement.cshtml.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Admin\\NewsManagement.cshtml.cs",
-              "RelativeToolTip": "Pages\\Admin\\NewsManagement.cshtml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T10:45:30.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "20251007132426_PendingChanges.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20251007132426_PendingChanges.cs",
               "RelativeDocumentMoniker": "Migrations\\20251007132426_PendingChanges.cs",
@@ -697,19 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "NewsViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\ViewComponents\\NewsViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\NewsViewComponent.cs",
-              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\ViewComponents\\NewsViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\NewsViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T10:35:44.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 43,
               "Title": "Accidents.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
@@ -721,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "Pages_Shared__Layout.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\AppData\\Local\\Temp\\.vsdbgsrc\\68f9529e581549581caa044d83863b5b97e11c1ca4fa152905f0a6d8874010c4\\Pages_Shared__Layout.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\68f9529e581549581caa044d83863b5b97e11c1ca4fa152905f0a6d8874010c4\\Pages_Shared__Layout.cs",
@@ -734,7 +894,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "20250929110646_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Migrations\\20250929110646_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250929110646_InitialCreate.cs",
@@ -746,7 +906,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -758,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "Treatments.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ExaminationTreatment\\Treatments.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ExaminationTreatment\\Treatments.cshtml",
@@ -770,7 +930,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "Exercise.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Exercise.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Exercise.cshtml",
@@ -782,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "Nutrition.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Nutrition.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Nutrition.cshtml",
@@ -794,7 +954,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -806,7 +966,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "Examination.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ExaminationTreatment\\Examination.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ExaminationTreatment\\Examination.cshtml",
@@ -818,7 +978,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -830,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "Wellness.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Wellness.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Wellness.cshtml",
@@ -842,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 57,
               "Title": "Child.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ChildPregnant\\Child.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ChildPregnant\\Child.cshtml",
@@ -854,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 55,
               "Title": "Ailments.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\DiseasesAilments\\Ailments.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\DiseasesAilments\\Ailments.cshtml",
@@ -866,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 56,
               "Title": "Pregnant.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ChildPregnant\\Pregnant.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ChildPregnant\\Pregnant.cshtml",
@@ -878,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 58,
               "Title": "Injuries.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Injuries.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\AccidentsInjuries\\Injuries.cshtml",
@@ -890,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "Diseases.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\DiseasesAilments\\Diseases.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\DiseasesAilments\\Diseases.cshtml",

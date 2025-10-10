@@ -22,8 +22,8 @@ namespace Csharp3_A1.Pages.PatientPages
 
         //Patient properties
         public Patient CurrentPatient { get; set; } = new();
-        public List<MedicalHistory> MedicalHistory { get; set; } = new();
-        public List<Appointment> Appointments { get; set; } = new();
+        public List<MedicalHistory> MedicalHistory { get; set; } = [];
+        public List<Appointment> Appointments { get; set; } = [];
 
         //Staff list property
         public SelectList SelectStaffList { get; set; }

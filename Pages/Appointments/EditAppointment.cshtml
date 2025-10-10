@@ -1,0 +1,36 @@
+﻿@page
+@model Csharp3_A1.Pages.Appointments.EditAppointmentModel
+@{
+}
+<h2>Edit Appointment</h2>
+
+<div>
+	<label>Patient: </label>
+	<input class="form-control" value="@Model.Appointment.Patient.Name" readonly />
+</div>
+
+<div>
+	<label>Staff: </label>
+	<input class="form-control" value="@Model.Appointment.Staff.Name" readonly />
+</div>
+
+<form method="post">
+	<div class="form-group">
+		<label asp-for="Appointment.Reason"></label>
+		<input asp-for="Appointment.Reason" class="form-control" />
+		<span asp-validation-for="Appointment.Reason" class="text-danger"></span>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="Appointment.DateOfAppointment"></label>
+		<input asp-for="Appointment.DateOfAppointment" type="datetime-local" class="form-control" />
+		<span asp-validation-for="Appointment.DateOfAppointment" class="text-danger"></span>
+	</div>
+
+	<input type="hidden" asp-for="Appointment.Id" />
+	<input type="hidden" asp-for="Appointment.PatientId" />
+	<input type="hidden" asp-for="Appointment.StaffId" />
+
+	<button type="submit" class="btn btn-primary mt-2">Save</button>
+	<a asp-page="/Appointments/Index" class="btn btn-outline-primary mt-2">Cancel</a>
+</form>

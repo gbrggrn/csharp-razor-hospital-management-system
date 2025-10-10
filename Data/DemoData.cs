@@ -58,12 +58,14 @@ namespace Csharp3_A1.Data
 			if (!context.MedicalHistories.Any())
 			{
 				var patients = context.Patients.ToList();
+				var staff = context.Staff.ToList();
 
 				context.MedicalHistories.AddRange(
 					new MedicalHistory
 					{
 						Patient = patients[0],
 						PatientId = patients[0].Id,
+						StaffId = staff[0].Id,
 						DateOfVisit = new DateTime(2022, 1, 22),
 						Reason = "Broken leg",
 						Notes = "Plastered"
@@ -72,6 +74,7 @@ namespace Csharp3_A1.Data
 					{
 						Patient = patients[1],
 						PatientId = patients[1].Id,
+						StaffId = staff[1].Id,
 						DateOfVisit = new DateTime(2020, 2, 24),
 						Reason = "Common Cold",
 						Notes = "Prescribed ibuprofen"
@@ -80,6 +83,7 @@ namespace Csharp3_A1.Data
 					{
 						Patient = patients[2],
 						PatientId = patients[2].Id,
+						StaffId = staff[2].Id,
 						DateOfVisit = new DateTime(2021, 9, 14),
 						Reason = "Routine Checkup",
 						Notes = "All fine"
@@ -88,6 +92,7 @@ namespace Csharp3_A1.Data
 					{
 						Patient = patients[3],
 						PatientId = patients[3].Id,
+						StaffId = staff[3].Id,
 						DateOfVisit = new DateTime(1999, 4, 4),
 						Reason = "Depression",
 						Notes = "Pat on the back"
@@ -96,6 +101,7 @@ namespace Csharp3_A1.Data
 					{
 						Patient = patients[4],
 						PatientId = patients[4].Id,
+						StaffId = staff[4].Id,
 						DateOfVisit = new DateTime(2006, 7, 8),
 						Reason = "Sore throat",
 						Notes = "Can not speak"

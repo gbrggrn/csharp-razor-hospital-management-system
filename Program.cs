@@ -31,6 +31,8 @@ namespace Csharp3_A1
             builder.Services.AddScoped<StaffService>(); //Register StaffService
             builder.Services.AddScoped<NewsService>(); //Register NewsService
             builder.Services.AddScoped<AccountService>(); //Register AccountService
+            builder.Services.AddScoped<AppointmentService>(); //Register AppointmentService
+            builder.Services.AddScoped<UserService>(); //Register UserService
 
             var app = builder.Build();
 
