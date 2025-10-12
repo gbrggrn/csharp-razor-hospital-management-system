@@ -28,6 +28,14 @@
 		</div>
 	</div>
 
+	<div class="form-group row mb-2">
+		<label asp-for="NewsItem.Url" class="col-2 col-form-label"></label>
+		<div class="col-10">
+			<input asp-for="NewsItem.Url" class="form-control" />
+			<span asp-validation-for="NewsItem.Url" class="text-danger"></span>
+		</div>
+	</div>
+
 	<input type="hidden" asp-for="NewsItem.Id" />
 
 	<button type="submit" class="btn btn-primary mb-2 mt-2">Save</button>

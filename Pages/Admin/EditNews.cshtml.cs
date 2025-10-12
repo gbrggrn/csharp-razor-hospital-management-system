@@ -7,10 +7,12 @@ namespace Csharp3_A1.Pages.Admin
 {
     public class EditNewsModel : PageModel
     {
-        private readonly NewsService _newsService;
+        [BindProperty]
         public NewsItem NewsItem { get; set; } = new NewsItem();
 
-        public EditNewsModel(NewsService newsService)
+		private readonly NewsService _newsService;
+
+		public EditNewsModel(NewsService newsService)
         {
             _newsService = newsService;
         }
@@ -23,13 +25,25 @@ namespace Csharp3_A1.Pages.Admin
                 return NotFound();
             }
 
-            NewsItem= newsItem;
+            NewsItem = newsItem;
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
         {
-            await _newsService.UpdateAsync(NewsItem);
+            if (!ModelState.IsValid)
+                return Page();
+
+            var itemToUpdate = await _newsService.GetByIdAsync(NewsItem.Id);
+            if (itemToUpdate == null)
+                return NotFound();
+
+            itemToUpdate.Title = NewsItem.Title;
+            itemToUpdate.Content = NewsItem.Content;
+            itemToUpdate.ImagePath = NewsItem.ImagePath;
+            itemToUpdate.Url = NewsItem.Url;
+
+            await _newsService.UpdateAsync(itemToUpdate);
             return RedirectToPage("/Admin/NewsManagement");
         }
     }

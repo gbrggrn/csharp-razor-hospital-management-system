@@ -16,12 +16,14 @@
 
     @foreach (var item in Model)
     {
-        <div class="card mb-2 bg-opacity-25">
-            <img src="~/@item.ImagePath" class="card-img-top img-fluid opacity-75" />
-            <div class="card-body">
-                <h6>@item.Title</h6>
-                <p>@item.Content</p>
+        <a href="@item.Url" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">
+            <div class="card mb-2 bg-opacity-25">
+                <img src="~/@item.ImagePath" class="card-img-top img-fluid opacity-75" />
+                <div class="card-body">
+                    <h6>@item.Title</h6>
+                    <p>@item.Content</p>
+                </div>
             </div>
-        </div>
+        </a>
     }
 </div>

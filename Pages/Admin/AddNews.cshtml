@@ -29,6 +29,14 @@
 		</div>
 	</div>
 
-	<button type="submit" asp-page-handler="Add" class="btn btn-primary mb-2 mt-2">Save</button>
+	<div class="form-group row mb-2">
+		<label class="col-2 col-form-label">Url</label>
+		<div class="col-10">
+			<input asp-for="NewsItem.Url" class="form-control" />
+			<span asp-validation-for="NewsItem.Url" class="text-danger"></span>
+		</div>
+	</div>
+
+	<button type="submit" asp-page-handler="AddSync" class="btn btn-primary mb-2 mt-2">Save</button>
 	<a asp-page="/Admin/NewsManagement" class="btn btn-outline-primary">Cancel</a>
 </form>

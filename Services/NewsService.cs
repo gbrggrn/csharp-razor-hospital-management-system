@@ -25,7 +25,15 @@ namespace Csharp3_A1.Services
 
 		public async Task UpdateAsync(NewsItem item)
 		{
-			_context.NewsItems.Update(item);
+			var itemToUpdate = await _context.NewsItems.FindAsync(item.Id);
+			if (itemToUpdate == null)
+				return;
+
+			itemToUpdate.Title = item.Title;
+			itemToUpdate.Content = item.Content;
+			itemToUpdate.ImagePath = item.ImagePath;
+			itemToUpdate.Url = item.Url;
+
 			await _context.SaveChangesAsync();
 		}
 

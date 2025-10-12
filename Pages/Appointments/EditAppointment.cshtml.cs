@@ -28,7 +28,7 @@ namespace Csharp3_A1.Pages.Appointments
                 Appointment = appointment;
         }
 
-        public async Task OnPost¡sync()
+        public async Task OnPostAsync()
         {
             await _appointmentService.UpdateAppointmentAsync(Appointment);
         }
