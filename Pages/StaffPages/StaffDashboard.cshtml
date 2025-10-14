@@ -205,15 +205,31 @@
 								</tr>
 							</thead>
 							<tbody>
-								@foreach (var appointment in Model.Appointments)
-								{
-									if (appointment.DateOfAppointment < DateTime.Now)
+								@{
+									bool hasUpcoming = false;
+
+									foreach (var a in Model.Appointments)
 									{
-										<tr>
-											<td>@appointment.Patient!.Name</td>
-											<td>@appointment.Reason</td>
-											<td>@appointment.DateOfAppointment.ToShortDateString()</td>
-										</tr>
+										if (a.DateOfAppointment > DateTime.Now)
+										{
+											hasUpcoming = true;
+											break;
+										}
+									}
+
+									if (hasUpcoming)
+									{
+										foreach (var appointment in Model.Appointments)
+										{
+											if (appointment.DateOfAppointment > DateTime.Now)
+											{
+												<tr>
+													<td>@appointment.Patient!.Name</td>
+													<td>@appointment.Reason</td>
+													<td>@appointment.DateOfAppointment.ToShortDateString()</td>
+												</tr>
+											}
+										}
 									}
 									else
 									{
