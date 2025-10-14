@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\appointments\\editappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\appointments\\editappointment.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|c:\\users\\gusta\\source\\repos\\c#\\mau_c#\\c#3\\csharp3_a1\\pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16454D8D-61B9-4BE5-969E-0D3AD807095E}|Csharp3_A1.csproj|solutionrelative:pages\\staffpages\\staffdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -90,19 +98,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditAppointment.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Appointments\\EditAppointment.cshtml.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Appointments\\EditAppointment.cshtml.cs*",
+              "RelativeToolTip": "Pages\\Appointments\\EditAppointment.cshtml.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowC0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T18:12:36.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Services\\AppointmentService.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "Services\\AppointmentService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwEYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T18:07:20.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StaffDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
               "RelativeDocumentMoniker": "Pages\\StaffPages\\StaffDashboard.cshtml",
               "ToolTip": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\StaffPages\\StaffDashboard.cshtml",
               "RelativeToolTip": "Pages\\StaffPages\\StaffDashboard.cshtml",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAmwOgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAmwOgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-14T16:57:19.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -115,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Header.cshtml",
@@ -127,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
@@ -139,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Accidents.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\AccidentsInjuries\\Accidents.cshtml",
@@ -151,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Pages_Shared__Layout.cs",
               "DocumentMoniker": "C:\\Users\\gusta\\AppData\\Local\\Temp\\.vsdbgsrc\\68f9529e581549581caa044d83863b5b97e11c1ca4fa152905f0a6d8874010c4\\Pages_Shared__Layout.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\68f9529e581549581caa044d83863b5b97e11c1ca4fa152905f0a6d8874010c4\\Pages_Shared__Layout.cs",
@@ -164,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -176,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Treatments.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ExaminationTreatment\\Treatments.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ExaminationTreatment\\Treatments.cshtml",
@@ -188,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Exercise.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Exercise.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Exercise.cshtml",
@@ -200,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Nutrition.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Nutrition.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Nutrition.cshtml",
@@ -212,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
@@ -224,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Examination.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ExaminationTreatment\\Examination.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ExaminationTreatment\\Examination.cshtml",
@@ -236,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -248,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Wellness.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\LifeHealth\\Wellness.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\LifeHealth\\Wellness.cshtml",
@@ -260,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Child.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ChildPregnant\\Child.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ChildPregnant\\Child.cshtml",
@@ -272,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Ailments.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\DiseasesAilments\\Ailments.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\DiseasesAilments\\Ailments.cshtml",
@@ -284,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Pregnant.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\ChildPregnant\\Pregnant.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\ChildPregnant\\Pregnant.cshtml",
@@ -296,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Injuries.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\AccidentsInjuries\\Injuries.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\AccidentsInjuries\\Injuries.cshtml",
@@ -308,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Diseases.cshtml",
               "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\C#\\MAU_C#\\C#3\\Csharp3_A1\\Pages\\Menu\\DiseasesAilments\\Diseases.cshtml",
               "RelativeDocumentMoniker": "Pages\\Menu\\DiseasesAilments\\Diseases.cshtml",

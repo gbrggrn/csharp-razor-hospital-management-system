@@ -28,9 +28,23 @@ namespace Csharp3_A1.Pages.Appointments
                 Appointment = appointment;
         }
 
-        public async Task OnPostAsync()
-        {
-            await _appointmentService.UpdateAppointmentAsync(Appointment);
-        }
-    }
+		public async Task<IActionResult> OnPostAsync()
+		{
+			if (!ModelState.IsValid)
+				return Page();
+
+			var itemToUpdate = await _appointmentService.GetAppointmentByIdAsync(Appointment.Id);
+			if (itemToUpdate == null)
+				return NotFound();
+
+			itemToUpdate.PatientId = Appointment.PatientId;
+			itemToUpdate.StaffId = Appointment.StaffId;
+			itemToUpdate.DateOfAppointment = Appointment.DateOfAppointment;
+			itemToUpdate.Reason = Appointment.Reason;
+
+			await _appointmentService.UpdateAsync(itemToUpdate);
+			return RedirectToPage("/Appointments/Index");
+		}
+
+	}
 }

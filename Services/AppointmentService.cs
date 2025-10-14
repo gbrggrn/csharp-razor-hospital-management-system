@@ -45,15 +45,29 @@ namespace Csharp3_A1.Services
 			await _context.SaveChangesAsync();
 		}
 
-		public async Task UpdateAppointmentAsync(Appointment appointment)
+		/*public async Task UpdateAppointmentAsync(Appointment appointment)
 		{
 			_context.Appointments.Update(appointment);
 			await _context.SaveChangesAsync();
-		}
+		}*/
 
 		public async Task AddAppointmentAsync(Appointment appointment)
 		{
 			await _context.Appointments.AddAsync(appointment);
+			await _context.SaveChangesAsync();
+		}
+
+		public async Task UpdateAsync(Appointment appointment)
+		{
+			var itemToUpdate = await _context.Appointments.FindAsync(appointment.Id);
+			if (itemToUpdate == null)
+				return;
+
+			itemToUpdate.PatientId = appointment.PatientId;
+			itemToUpdate.StaffId = appointment.StaffId;
+			itemToUpdate.DateOfAppointment = appointment.DateOfAppointment;
+			itemToUpdate.Reason = appointment.Reason;
+
 			await _context.SaveChangesAsync();
 		}
 	}
