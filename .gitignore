@@ -5,6 +5,7 @@
 
 # Additions
 .bin
+.obj
 .appsettings.Development.json
 .appsettings.json
 .Csharp3_A1.csproj.user
